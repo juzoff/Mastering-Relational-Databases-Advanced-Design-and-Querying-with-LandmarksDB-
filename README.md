@@ -2,9 +2,9 @@
 This project focuses on forward and reverse engineering using MySQL Workbench for the LandmarksDB dataset, preparing a database for cloud migration while ensuring integrity and optimization. Advanced SQL queries provide insights on visitor trends and landmarks.
 
 ### Attatchments:
-#### >ER Diagram (MWB + PNG)
-#### >SQL Export Script
-#### >Query Results (SQL script + screenshots in PDF)
+#### >ER Diagram (MWB + PNG) - [Part 1 - Question 1]
+#### >SQL Export Script - [Part 1 - Question 2]
+#### >Query Results (SQL script + screenshots in PDF) - [Part 2]
 
 ## Contextualizing the Assignment:
 In this scenario, the task revolves around the department’s need to securely migrate its databases to a cloud platform while maintaining local copies of the data. My role as a database administrator involved ensuring referential integrity and maintaining accurate local databases in sync with a centralized database. This required reverse engineering to extract the latest logical model from an outdated database, understanding the current structure, and making necessary adjustments before migration.
