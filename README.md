@@ -1,0 +1,2 @@
+# Mastering-Relational-Databases-Advanced-Design-and-Querying-with-LandmarksDB-
+Practical application of forward and reverse engineering using MySQL Workbench with the LandmarksDB dataset. This project prepares a local database for cloud migration, ensuring data integrity, synchronization, and optimization. Advanced SQL queries analyze relationships, visitor trends, and landmark data for insights.
