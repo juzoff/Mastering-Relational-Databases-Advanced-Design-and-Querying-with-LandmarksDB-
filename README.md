@@ -14,14 +14,21 @@ I used the MySQL Workbench tool for reverse engineering, which allowed me to ana
 Additionally, forward engineering helped me synchronize any updates to the ER model with the database source. This included ensuring that referential integrity constraints, cardinality ratios, and keys were correctly applied in the design process.
 
 ## Advanced Queries and Data Extraction:
-As part of my analysis, I executed several advanced SQL queries aimed at deriving insights and patterns from the data. I extracted country-specific landmark details, analyzed visitor trends, and identified countries with unique landmark characteristics based on heritage status and descriptions. Some key queries included:
+As part of my analysis, I executed several advanced SQL queries aimed at deriving insights and patterns from the data. I extracted country-specific landmark details, analyzed visitor trends, and identified countries with unique landmark characteristics based on heritage status and descriptions. Key queries included:
 
-Listing landmarks in France and the USA, along with location and country details.
-Counting the total number of landmarks by country.
-Identifying landmarks established after 1900 with heritage status.
-Calculating visitor numbers and landmark distribution by country and continent.
-Finding unique landmark pairs in the same location within the same country.
-These queries allowed me to evaluate visitor behavior, landmark popularity by season, and calculate percentages of visits to specific landmark types (e.g., those featuring "citadel," "fort," or "castle").
+-Listing landmarks in France and the USA: Displays all landmarks in these countries with their locations and country details.
+
+-Counting landmarks by country: Shows the total number of landmarks in each country for a global comparison.
+
+-Landmarks established after 1900 with heritage status: Highlights significant landmarks created post-1900 with heritage recognition.
+
+-Visitor numbers and landmark distribution by country and continent: Lists countries, continents, total landmarks, and visitors, sorted by total visitors in descending order.
+
+-Unique landmark pairs in the same location: Finds landmarks in the same city/country without redundant pairs.
+
+-Most popular season for visits by continent: Identifies the season with the highest visitor count for each continent.
+
+-Visits to landmarks with "citadel," "fort," or "castle" in description: Calculates the percentage of visits to these landmarks per country, including those with no visit data.
 
 ## Handling Migration and Synchronization:
 Given the department’s plan to migrate to a cloud platform, I also prepared the database for a smooth transition by generating a complete export of the database, including both structure and data. This involved ensuring that cardinality, data integrity, and accurate entity modeling were maintained during migration to a cloud-based system. By addressing the logical modeling and data management challenges, I ensured that the databases were prepared for cloud-based environments while maintaining a synchronized local copy for ongoing use.
